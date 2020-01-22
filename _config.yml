@@ -1,2 +1,4 @@
 name: Jennifer D. Wu
 markdown: kramdown
+
+theme: jekyll-theme-minimal
