@@ -21,7 +21,7 @@ a:hover {
 }
 h1 {
     font-family:'Helvetica';
-    font-size: 1.5em;
+    font-size: 1em;
 }
 p {
     font-family: 'Helvetica';
@@ -31,7 +31,7 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: .6em;
 }
 
 ul.posts { 
