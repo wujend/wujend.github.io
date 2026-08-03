@@ -299,6 +299,14 @@ footer br {
   display: none;
 }
 
+footer p {
+    margin: 0 0 0.75rem;
+}
+
+.footer-name {
+    font-weight: 600;
+}
+
 
 /* --------------------------------------------------
    Mobile
