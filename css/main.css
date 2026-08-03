@@ -297,13 +297,13 @@ footer li:first-child {
   width: 100%;
   margin-bottom: 5px;
   color: var(--text);
-  font-family: var(--san);
+  font-family: var(--sans);
   font-size: 1rem;
 }
 
-footer > div:last-child {
-    margin-left: auto;
-    text-align: right;
+.footer-right {
+  margin-left: auto;
+  text-align: right;
 }
 
 footer br {
@@ -311,11 +311,11 @@ footer br {
 }
 
 footer .eyebrow {
-    margin-bottom: 0 0 2px;
+    margin: 0 0 2px;
 }
 
 footer p {
-    margin: 0 0 0.075rem;
+    margin: 0;
 }
 
 .footer-name {
