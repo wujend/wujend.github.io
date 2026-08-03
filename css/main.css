@@ -123,13 +123,13 @@ nav a:focus-visible {
   grid-template-columns: minmax(220px, 0.72fr) minmax(0, 1.55fr);
   gap: clamp(50px, 8vw, 110px);
   align-items: start;
-  padding: 95px 0 110px;
+  padding: 60px 0 90px;
 }
 
 .profile {
   position: sticky;
-  top: 36px;
-  padding-top: 52px;
+  top: 0px;
+  align-self: start;
 }
 
 .profile-image {
@@ -296,7 +296,7 @@ footer li:first-child {
 }
 
 footer br {
-  display: none;
+  display: initial;
 }
 
 footer p {
