@@ -306,8 +306,12 @@ footer br {
   display: initial;
 }
 
+footer .eyebrow {
+    margin-bottom: 0 0 2px;
+}
+
 footer p {
-    margin: 0 0 0.75rem;
+    margin: 0;
 }
 
 .footer-name {
