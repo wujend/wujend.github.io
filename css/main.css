@@ -222,12 +222,12 @@ nav a:focus-visible {
 
 .container > h1,
 .container > article > h1 {
-  margin: 80px 0 40px;
-  font-family: var(--san);
-  font-size: clamp(2.6rem, 6vw, 5rem);
-  font-weight: 400;
-  letter-spacing: -0.04em;
-  line-height: 1;
+  margin: 55px 0 32px;
+  font-family: var(--sans);
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
 }
 
 .container h2 {
@@ -245,7 +245,9 @@ nav a:focus-visible {
   font-weight: 400;
 }
 
-.container > p,
+.container > p {
+    max-width: var(--content-width);
+},
 .container > ul,
 .container > ol {
   max-width: var(--content-width);
@@ -405,11 +407,11 @@ footer p {
 }
 
 .publication {
-  padding: 0 0 38px 12px;
+  padding: 0 0 14px 12px;
 }
 
 .publication + .publication {
-  padding-top: 38px;
+  padding-top: 14px;
   border-top: 1px solid var(--line);
 }
 
