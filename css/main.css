@@ -416,16 +416,16 @@ footer p {
 }
 
 .publication {
-  padding: 0 0 14px 12px;
+  padding: 0 0 6px 12px;
 }
 
 .publication + .publication {
-  padding-top: 14px;
+  padding-top: 10px;
   border-top: 1px solid var(--line);
 }
 
 .publication p {
-  max-width: 760px;
+  max-width: none;
   margin: 0 0 12px;
 }
 
