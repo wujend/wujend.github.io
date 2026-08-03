@@ -134,10 +134,9 @@ nav a:focus-visible {
 
 .profile-image {
   width: 100%;
-  max-width: 330px;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center;
+    border-radius: 2px;
+    object-fit: cover;
+    filter: saturate(.92) contrast(.98);
 }
 
 .profile-name {
