@@ -420,17 +420,19 @@ footer p {
 }
 
 .publication {
-  padding: 0 0 6px 12px;
+  padding: 0 0 12px 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--line);
 }
 
-.publication + .publication {
-  padding-top: 10px;
-  border-top: 1px solid var(--line);
+.publication:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
 }
 
 .publication p {
   max-width: none;
-  margin: 0 0 12px;
+  margin: 0 0 6px;
 }
 
 .publication-links {
