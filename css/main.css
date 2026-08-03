@@ -273,7 +273,6 @@ footer {
   padding: 38px 0 55px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  color: var(--muted);
   font-size: 0.8rem;
 
   display: flex;
@@ -300,6 +299,11 @@ footer li:first-child {
   color: var(--text);
   font-family: var(--san);
   font-size: 1rem;
+}
+
+footer > div:last-child {
+    margin-left: auto;
+    text-align: right;
 }
 
 footer br {
